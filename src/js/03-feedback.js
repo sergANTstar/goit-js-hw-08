@@ -34,6 +34,8 @@ function populateTextarea() {
     if (saveMessage) {
         textarea.value = saveMessage.message;
         email.value = saveMessage.email;
+    } else { saveMessage = ""
+
     }
    
 }
